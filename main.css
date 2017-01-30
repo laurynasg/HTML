@@ -1,0 +1,16 @@
+body {
+    font-style: italic;
+    font-size: 14px;
+
+}
+
+.spalva {
+    display: inline;
+    background-color: aqua
+}
+
+#raudonas {
+    color: red;
+    background-color: azure;
+}
+

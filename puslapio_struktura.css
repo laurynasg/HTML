@@ -1,0 +1,77 @@
+body {
+    /*background-image: url("M722889.jpg");*/
+    /*background-size: cover;*/
+
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+
+}
+
+header, footer {
+    padding: 1em;
+    color: black;
+    background-color: transparent;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    margin: 0;
+    width: 100%;
+    background-color: darkred;
+    height: 100%;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: darkred;
+    width: 100%;
+}
+
+nav ul a {
+    text-decoration: none;
+    height: 30px;
+    width: 100%;
+}
+
+nav ul li {
+    height: 30px;
+    width: 100%;
+}
+
+nav ul a:hover {
+    background-color: chartreuse;
+    color: black;
+}
+
+nav ul a:active {
+    background-color: aquamarine;
+    color: teal;
+}
+
+nav ul li a {
+    color: black;
+    background-color: beige;
+    padding: 5px;
+    border: 1px;
+    margin: 2px;
+    width: 100%;
+}
+
+article {
+
+    height: 525px;
+    border: 5px solid cyan;
+    text-align: justify;
+    border-left: none;
+    border-right: none;
+    padding: 1em;
+    overflow: hidden;
+
+}
